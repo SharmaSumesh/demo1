@@ -1,0 +1,33 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+.conatiner
+{
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+#board
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(24, 198, 76);
+    display: grid;
+    grid-template-columns: repeat(10,10%);
+    grid-template-rows: repeat(10,10%);
+}
+.food
+{
+    background-color:red;
+}
+.snake
+{
+    background-color:black;
+}
+.head
+{
+    background-color:rgb(91, 42, 165);
+}
